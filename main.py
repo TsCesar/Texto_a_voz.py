@@ -1,9 +1,9 @@
-#Import de todo lo necesario
+#Import de todo lo necesario, y descarga de los recursos
 import os
-import requests
-from bs4 import BeautifulSoup
-from gtts import gTTS
-from docx import Document
+import requests #Descarga
+from bs4 import BeautifulSoup #Descarga
+from gtts import gTTS #Descarga
+from docx import Document #Descarga
 
 def RutaLimpia(path): #Limpia la ruta del archio si contiene comillas adicionales
     return path.strip(' "\'')
